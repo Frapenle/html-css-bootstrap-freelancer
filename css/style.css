@@ -32,27 +32,27 @@ header {
     height: 350px;
 }
 
-.my-card:first-child {
+.garnet {
     background-color: var(--garnet-light-color);
 }
 
-.my-card:nth-child(2) {
+.azure-light {
     background-color: var(--azure-light-color);
 }
 
-.my-card:nth-child(3) {
+.black {
     background-color: var(--black-color);
 }
 
-.my-card:nth-child(4) {
+.heaven{
     background-color: var(--heaven-dark-color);
 }
 
-.my-card:nth-child(5) {
+.blue {
     background-color: var(--blue-color);
 }
 
-.my-card:nth-child(6) {
+.brown{
     background-color: var(--brown-light-color);
 }
 
