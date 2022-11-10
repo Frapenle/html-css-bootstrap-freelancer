@@ -28,7 +28,7 @@ header {
 
 /* style my-card */
 .my-card {
-    width: 500px;
+    width: 100%;
     height: 350px;
 }
 
@@ -54,4 +54,26 @@ header {
 
 .my-card:nth-child(6) {
     background-color: var(--brown-light-color);
+}
+
+/* section about */
+.about {
+    height: 300px;
+    background-color: var(--green-bg-color);
+}
+
+/* contact me */
+.contact-me {
+    height: 300px;
+}
+
+/* footer */
+.footer-top {
+    height: 250px;
+    background-color: var(--footer-light-bg-color);
+}
+
+.footer-bottom {
+    height: 100px;
+    background-color: var(--footer-dark-bg-color);
 }
