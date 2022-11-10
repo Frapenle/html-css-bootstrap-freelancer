@@ -1,0 +1,57 @@
+:root {
+    --header-bg-color: #2B3F51;
+    --jumbo-bg-color: #1ABC9C;
+    --green-bg-color: #1ABC9D;
+    --footer-light-bg-color: #3B546D;
+    --footer-dark-bg-color: #2C3F50;
+    --garnet-light-color: #BA4B63;
+    --azure-light-color:#1DA4B6;
+    --black-color: #140F0F;
+    --heaven-dark-color: #1C83C1;
+    --blue-color: #0F38B5;
+    --brown-light-color: #CCB2A3;
+
+}
+header {
+    background-color: var(--header-bg-color);
+    height: 50px;
+}
+
+
+.jumbotron {
+    height: 300px;
+    background-color: var(--jumbo-bg-color);
+
+    /* space for text of portfolio section  */
+    margin-bottom: 120px;
+}
+
+/* style my-card */
+.my-card {
+    width: 500px;
+    height: 350px;
+}
+
+.my-card:first-child {
+    background-color: var(--garnet-light-color);
+}
+
+.my-card:nth-child(2) {
+    background-color: var(--azure-light-color);
+}
+
+.my-card:nth-child(3) {
+    background-color: var(--black-color);
+}
+
+.my-card:nth-child(4) {
+    background-color: var(--heaven-dark-color);
+}
+
+.my-card:nth-child(5) {
+    background-color: var(--blue-color);
+}
+
+.my-card:nth-child(6) {
+    background-color: var(--brown-light-color);
+}
