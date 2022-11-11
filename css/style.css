@@ -13,8 +13,9 @@
 }
 
 /* header */
-header {
+.navbar {
     background-color: var(--header-bg-color);
+    color: white;
 }
 
 .header-logo,
