@@ -13,32 +13,59 @@
 }
 
 /* header */
-.navbar {
+header {
     background-color: var(--header-bg-color);
-    color: white;
-}
-
-.header-logo,
-.header-menu {
-    background-color: yellow;
-    padding: 10px;
 }
 
 .jumbotron {
     background-color: var(--jumbo-bg-color);
-    /* space for text of portfolio section  */
-    margin-bottom: 120px;
+
+}
+.jumbo img {
+    max-width: 300px;
 }
 
-.jumbo {
-    border: 2px solid white;
-    background-color: grey;
+.star-divider {
+    display: inline-block;
+    position: relative;
+    font-size: 2.5rem;
+}
+
+.star-divider::before {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 5px;
+    background: white;
+    right: 60px;
+    top: 50%;
+    position: absolute;
+}
+
+.star-divider::after {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 5px;
+    background: white;
+    left: 60px;
+    top: 50%;
+    position: absolute;
+}
+
+.star-div-dark::before,
+.star-div-dark::after {
+    background: black;
 }
 
 /* style my-card */
+
+.portfolio img {
+    max-width: 100%;
+}
+
 .my-card {
-    width: 100%;
-    height: 350px;
+    overflow: hidden;
 }
 
 .garnet {
@@ -70,19 +97,7 @@
     background-color: var(--green-bg-color);
 }
 
-.about-text {
-    border: 2px solid black;
-}
-
-p{
-    background-color: yellow;
-    padding: 5rem 0;
-}
-
 /* contact me */
-.contact-me {
-    height: 300px;
-}
 
 /* footer */
 .footer-top {
@@ -91,4 +106,35 @@ p{
 
 .footer-bottom {
     background-color: var(--footer-dark-bg-color);
+}
+
+hr {
+    margin-bottom: 1rem;
+    margin-top: 0.3rem;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fs-copy {
+    font-size: .6rem;
 }
