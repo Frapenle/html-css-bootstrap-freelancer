@@ -19,8 +19,8 @@ header {
 
 .jumbotron {
     background-color: var(--jumbo-bg-color);
-
 }
+
 .jumbo img {
     max-width: 300px;
 }
@@ -138,3 +138,4 @@ label {
 .fs-copy {
     font-size: .6rem;
 }
+
